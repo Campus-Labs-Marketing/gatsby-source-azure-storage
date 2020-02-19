@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-azure-storage",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Source plugin for pulling data into Gatsby from Azure Storage.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielOliver/gatsby-source-azure-storage"
+    "url": "https://github.com/Campus-Labs-Marketing/gatsby-source-azure-storage"
   },
   "keywords": [
     "gatsby",
@@ -17,15 +17,21 @@
     "azure",
     "azure-storage"
   ],
-  "author": "Daniel Oliver <danieloliversoftware@gmail.com>",
+  "author": "Raymond Milstrey <rmilstrey@campuslabs.com>",
+  "contributors": [
+    {
+      "name": "Daniel Oliver (Original Author)",
+      "email": "danieloliversoftware@gmail.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
-    "azure-storage": "^2.10.0",
-    "mkdirp": "^0.5.1",
-    "gatsby-source-filesystem": "^1.5.39"
+    "azure-storage": "^2.10.3",
+    "mkdirp": "^1.0.3",
+    "gatsby-source-filesystem": "^2.1.48"
   },
   "bugs": {
-    "url": "https://github.com/DanielOliver/gatsby-source-azure-storage/issues"
+    "url": "https://github.com/Campus-Labs-Marketing/gatsby-source-azure-storage/issues"
   },
-  "homepage": "https://github.com/DanielOliver/gatsby-source-azure-storage#readme"
+  "homepage": "https://github.com/Campus-Labs-Marketing/gatsby-source-azure-storage#readme"
 }
